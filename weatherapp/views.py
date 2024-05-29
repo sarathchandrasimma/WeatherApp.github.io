@@ -54,7 +54,7 @@ def home(request):
             ]
         elif 'clear' in description.lower() or 'sunny' in description.lower():
             affiliate_links = [
-                {'title': 'Buy Sunscreen', 'url': 'https://www.amazon.in/Derma-Co-Hyaluronic-Sunscreen-Protection/dp/B095CRM8NF?tag=sarath04c-21', 'image':'https://m.media-amazon.com/images/I/41NQN8irrVL._SX300_SY300_QL70_FMwebp_.jpg'}
+                {'title': 'Buy Sunscreen,and protect your beautiful face from sun tan!!', 'url': 'https://www.amazon.in/Derma-Co-Hyaluronic-Sunscreen-Protection/dp/B095CRM8NF?tag=sarath04c-21', 'image':'https://m.media-amazon.com/images/I/41NQN8irrVL._SX300_SY300_QL70_FMwebp_.jpg'}
             ]
         elif 'cold' in description.lower() or temp < 15:
             affiliate_links = [
@@ -62,7 +62,7 @@ def home(request):
             ]
         elif 'cloud' in description.lower():
             affiliate_links = [
-                {'title': 'Buy a Hoodie', 'url': 'https://amzn.to/4aFLfto?tag=sarath04c-21', 'image': 'https://m.media-amazon.com/images/I/51-1Kq42BEL._SY879_.jpg'}
+                {'title': 'Are you Feeling cold !!,Buy a Hoodie', 'url': 'https://amzn.to/4aFLfto?tag=sarath04c-21', 'image': 'https://m.media-amazon.com/images/I/51-1Kq42BEL._SY879_.jpg'}
             ]
         elif 'snow' in description.lower():
             affiliate_links = [
@@ -79,47 +79,47 @@ def home(request):
             ]
         elif 'mist' in description.lower():
             affiliate_links = [
-                {'title': 'Buy a Warm Jacket', 'url': 'https://www.amazon.in/dp/B07VVZ7NP9?tag=sarath04c-21', 'image': get_random_image('warm jacket')}
+                {'title': 'Buy a Warm Jacket', 'url': 'https://amzn.to/4bCAF7M?tag=sarath04c-21', 'image': 'https://m.media-amazon.com/images/I/51tlIIuJ3dL._SX679_.jpg'}
             ]
         elif 'drizzle' in description.lower():
             affiliate_links = [
-                {'title': 'Get a Waterproof Backpack', 'url': 'https://www.amazon.in/dp/B08B7YXHYY?tag=sarath04c-21', 'image': get_random_image('waterproof backpack')}
+                {'title': 'Get a Waterproof Backpack', 'url': 'https://amzn.to/3wIBsoQ?tag=sarath04c-21', 'image':'https://m.media-amazon.com/images/I/71EbaQCAOFL._SX679_.jpg'}
             ]
         elif 'thunderstorm' in description.lower():
             affiliate_links = [
-                {'title': 'Buy Surge Protector', 'url': 'https://www.amazon.in/dp/B08GQK4V2S?tag=sarath04c-21', 'image': get_random_image('surge protector')}
+                {'title': 'Buy Surge Protector', 'url': 'https://amzn.to/44YQKlT?tag=sarath04c-21', 'image':'https://m.media-amazon.com/images/I/313hBb+4rXL._SY300_SX300_.jpg'}
             ]
         elif 'fog' in description.lower():
             affiliate_links = [
-                {'title': 'Buy a High Visibility Vest', 'url': 'https://www.amazon.in/dp/B07V2M1K9K?tag=sarath04c-21', 'image': get_random_image('high visibility vest')}
+                {'title': 'Buy a High Visibility Vest', 'url': 'https://amzn.to/4e0PBhJ?tag=sarath04c-21', 'image':'https://m.media-amazon.com/images/I/412OzF9vRCL._SY445_SX342_QL70_FMwebp_.jpg'}
             ]
         elif 'humid' in description.lower():
             affiliate_links = [
-                {'title': 'Buy a Dehumidifier', 'url': 'https://www.amazon.in/dp/B07P6PRLVT?tag=sarath04c-21', 'image': get_random_image('dehumidifier')}
+                {'title': 'Buy a Dehumidifier', 'url': 'https://amzn.to/3UYEMUN?tag=sarath04c-21', 'image':' https://m.media-amazon.com/images/I/3103Dh74r5L._SX300_SY300_QL70_FMwebp_.jpg'}
             ]
         elif 'dust' in description.lower():
             affiliate_links = [
-                {'title': 'Buy Safety Goggles', 'url': 'https://www.amazon.in/dp/B085HRG1X3?tag=sarath04c-21', 'image': get_random_image('safety goggles')}
+                {'title': 'Buy Safety Goggles', 'url': 'https://amzn.to/3Kkx95Z?tag=sarath04c-21', 'image': 'https://m.media-amazon.com/images/I/31nil8LpOtL._SY300_SX300_QL70_FMwebp_.jpg'}
             ]
         elif 'smoke' in description.lower():
             affiliate_links = [
-                {'title': 'Buy an Air Quality Monitor', 'url': 'https://www.amazon.in/dp/B07N9MPG43?tag=sarath04c-21', 'image': get_random_image('air quality monitor')}
+                {'title': 'Buy an Air Quality Monitor', 'url': 'https://amzn.to/3UZJ8Li?tag=sarath04c-21', 'image':' https://m.media-amazon.com/images/I/41KO0vucj9L._SY445_SX342_QL70_FMwebp_.jpg'}
             ]
         elif 'sleet' in description.lower():
             affiliate_links = [
-                {'title': 'Buy Insulated Gloves', 'url': 'https://www.amazon.in/dp/B07V2Y5CZY?tag=sarath04c-21', 'image': get_random_image('insulated gloves')}
+                {'title': 'Buy Insulated Gloves', 'url': 'https://amzn.to/4aHWdyP?tag=sarath04c-21', 'image': get_random_image('insulated gloves')}
             ]
         elif 'blizzard' in description.lower():
             affiliate_links = [
-                {'title': 'Buy a Snow Shovel', 'url': 'https://www.amazon.in/dp/B0897Q2MZY?tag=sarath04c-21', 'image': get_random_image('snow shovel')}
+                {'title': 'Buy a Snow Shovel', 'url': 'https://amzn.to/4bWPkun?tag=sarath04c-21', 'image': get_random_image('snow shovel')}
             ]
         elif 'sandstorm' in description.lower():
             affiliate_links = [
-                {'title': 'Buy a Dust Mask', 'url': 'https://www.amazon.in/dp/B07HRKGLTC?tag=sarath04c-21', 'image': get_random_image('dust mask')}
+                {'title': 'Buy a Dust Mask', 'url': 'https://amzn.to/3Vh8OEC?tag=sarath04c-21', 'image': get_random_image('dust mask')}
             ]
         elif 'tornado' in description.lower():
             affiliate_links = [
-                {'title': 'Buy a Safety Helmet', 'url': 'https://www.amazon.in/dp/B097HZJDC7?tag=sarath04c-21', 'image': get_random_image('safety helmet')}
+                {'title': 'Buy a Safety Helmet', 'url': 'https://amzn.to/4bXRfyN?tag=sarath04c-21', 'image': get_random_image('safety helmet')}
             ]
         elif 'thunder' in description.lower():
             affiliate_links = [
