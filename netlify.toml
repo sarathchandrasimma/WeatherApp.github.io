@@ -1,0 +1,7 @@
+[build]
+  command = "python manage.py collectstatic --noinput && gunicorn yourproject.wsgi"
+  publish = "path_to_your_static_files_or_public_directory"
+
+[context.production.environment]
+  WEATHER_API_KEY = "weatherapikey"
+  UNSPLASH_API_KEY = "unsplashapikey"
